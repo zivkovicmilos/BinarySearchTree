@@ -8,7 +8,7 @@ The goal of this homework project for the Algorithms and Data Structures 2 cours
 
 # Features
 The following menu is used for interacting with the BST.
-![alt text](https://raw.githubusercontent.com/zivkovicmilos/BinarySearchTree/master/img/menu.png)
+![alt text](https://raw.githubusercontent.com/zivkovicmilos/BinarySearchTree/master/img/menu.svg)
 
 # Program Breakdown
 ## BST
