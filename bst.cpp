@@ -7,16 +7,17 @@ using namespace std;
 struct bstNode {
 
 	int key;
-	bstNode *left = nullptr;
-	bstNode *right = nullptr;
-	bstNode *parent = nullptr;
+	bstNode *left;
+	bstNode *right;
+	bstNode *parent;
 
 	bstNode() {
-		this->key = NULL;
+		key = 0;
+		left = right = parent = nullptr;
 	}
 
 	bstNode(int key) {
-		this->key = key;
+		key = key;
 	}
 };
 
@@ -25,13 +26,13 @@ struct bstTree {
 	int height;
 	bstNode* root;
 
-	bstTree(bstNode* root) {
-		this->root = root;
+	bstTree(bstNode* rt) {
+		root = rt;
 		height = -1;
 	}
 
 	bstTree() {
-		this->root = nullptr;
+		root = nullptr;
 		height = -1;
 	}
 	
