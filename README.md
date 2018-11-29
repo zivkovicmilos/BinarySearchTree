@@ -10,7 +10,6 @@ The goal of this homework project for the Algorithms and Data Structures 2 cours
 The following menu is used for interacting with the BST.
 
 ![alt text](./img/menu.svg)
-<img src="./img/menu.svg">
 
 # Program Breakdown
 ## BST
